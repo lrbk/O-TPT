@@ -1,5 +1,8 @@
 # 🚀O-TPT: Orthogonality Constraints for Calibrating Test-time Prompt Tuning in Vision-Language Models (CVPR 2025 - highlighted(Top- 13%)) 
 
+> 📄 本仓库的文件结构与各模块说明（中文）：[README.zh-CN.md](README.zh-CN.md)
+
+
 Our contributions are summarized as follows:
   - We provide new insights underlying the suboptimal performance of an existing top-performing calibration method for test-time prompt tuning
   - We propose a novel approach (named `O-TPT`) for calibrating test-time prompt tuning for VLMs by enforcing orthogonality constraints. This is accomplished by introducing orthogonal regularization on the textual features.

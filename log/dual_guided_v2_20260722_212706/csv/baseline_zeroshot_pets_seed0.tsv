@@ -1,0 +1,3 @@
+[2026-07-22 22:02:21] params: nstep=1 lr=0.005 bs=8
+Seed	[set_id]	Top-1 acc.	Top-5 acc.	Accuracy	ECE.
+0	Pets	88.12	97.47	88.09	4.44

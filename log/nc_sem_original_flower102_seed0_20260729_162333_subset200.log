@@ -1,0 +1,30 @@
+Use GPU: 0 for training
+Initializing the contect with given words: [a_photo_of_a]
+Initial context: "a photo of a"
+Number of context words (tokens): 4
+=> Model created: visual backbone ViT-B/16
+=> Using native Torch AMP. Training in mixed precision.
+length of datset 1
+name id of dataset: Flower102
+evaluating: Flower102
+using deterministic subset: 200 samples
+number of test samples: 200
+[nc_sem] loss=0.087857, gram_offdiag=0.5757, target_offdiag=0.2830, alpha=0.50
+[nc_sem] loss=0.087857, gram_offdiag=0.5757, target_offdiag=0.2830, alpha=0.50
+[nc_sem] loss=0.087857, gram_offdiag=0.5757, target_offdiag=0.2830, alpha=0.50
+[nc_sem] loss=0.087857, gram_offdiag=0.5757, target_offdiag=0.2830, alpha=0.50
+[nc_sem] loss=0.087857, gram_offdiag=0.5757, target_offdiag=0.2830, alpha=0.50
+[nc_sem] loss=0.087857, gram_offdiag=0.5757, target_offdiag=0.2830, alpha=0.50
+Test: [199/200]	Time  0.119 ( 0.161)	Acc@1 100.00 ( 66.50)	Acc@5 100.00 ( 78.50)
+ *  Acc@1 66.500 Acc@5 78.500
+acc:  66.5
+ece:  17.34091186523437
+=> Acc. on testset [Flower102]: @1 66.5/ @5 78.5
+======== Result Summary ========
+params: nstep	lr	bs
+params: 1	    0.005	64
+		 [set_id] 		 Top-1 acc. 		 Top-5 acc.
+Flower102	
+
+66.50	
+

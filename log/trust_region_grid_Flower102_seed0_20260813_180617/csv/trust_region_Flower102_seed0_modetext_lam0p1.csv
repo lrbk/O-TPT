@@ -1,0 +1,9 @@
+params: nstep,lr,bs
+2026-08-13 19:37:23,params: 1 0.005 64
+,[set_id],Top-1 acc.,Top-5 acc.
+2,0,2,6,-,0,8,-,1,3, ,1,9,:,3,7,:,2,3
+,Flower102
+Top-1 acc.,69.22
+Top-5 acc.,85.18
+Accuracy,69.14
+ECE.,3.72

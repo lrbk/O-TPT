@@ -1,0 +1,9 @@
+status	dataset	method	seed	csv	stdout
+OK	Flower102	entropy	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/csv/entropy_flower102_seed0.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/stdout/entropy_flower102_seed0.log
+OK	Flower102	psr	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/csv/psr_flower102_seed0.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/stdout/psr_flower102_seed0.log
+OK	Flower102	im	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/csv/im_flower102_seed0.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/stdout/im_flower102_seed0.log
+OK	Flower102	psr_im	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/csv/psr_im_flower102_seed0.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/stdout/psr_im_flower102_seed0.log
+OK	Pets	entropy	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/csv/entropy_pets_seed0.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/stdout/entropy_pets_seed0.log
+OK	Pets	psr	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/csv/psr_pets_seed0.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/stdout/psr_pets_seed0.log
+OK	Pets	im	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/csv/im_pets_seed0.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/stdout/im_pets_seed0.log
+OK	Pets	psr_im	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/csv/psr_im_pets_seed0.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001/stdout/psr_im_pets_seed0.log

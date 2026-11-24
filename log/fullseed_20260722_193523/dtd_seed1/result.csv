@@ -1,0 +1,9 @@
+params: nstep,lr,bs
+2026-07-22 20:49:13,params: 1 0.005 64
+,[set_id],Top-1 acc.,Top-5 acc.
+2,0,2,6,-,0,7,-,2,2, ,2,0,:,4,9,:,1,3
+,DTD
+Top-1 acc.,45.21
+Top-5 acc.,72.04
+Accuracy,45.15
+ECE.,7.90

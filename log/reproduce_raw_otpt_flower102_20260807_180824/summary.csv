@@ -1,0 +1,4 @@
+seed,acc,top1,top5,ece,csv
+0,69.18,69.35,85.14,3.56,/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/reproduce_raw_otpt_flower102_20260807_180824/Flower102_seed0_raw_otpt.csv
+1,69.35,69.35,85.22,3.66,/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/reproduce_raw_otpt_flower102_20260807_180824/Flower102_seed1_raw_otpt.csv
+2,69.18,69.14,85.06,3.65,/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/reproduce_raw_otpt_flower102_20260807_180824/Flower102_seed2_raw_otpt.csv

@@ -1,0 +1,3 @@
+[2026-07-23 16:02:39] params: nstep=1 lr=0.005 bs=64
+Seed	[set_id]	Top-1 acc.	Top-5 acc.	Accuracy	ECE.
+1	Flower102	68.98	85.46	69.06	3.24

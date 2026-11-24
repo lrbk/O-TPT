@@ -1,0 +1,29 @@
+/mlx_devbox/users/zhuziheng.15/playground/miniconda3/envs/otpt/lib/python3.10/site-packages/torch/cuda/__init__.py:107: UserWarning: CUDA initialization: Unexpected error from cudaGetDeviceCount(). Did you run some cuda functions before calling NumCudaDevices() that might have already set an error? Error 304: OS call failed or operation not supported on this OS (Triggered internally at /opt/conda/conda-bld/pytorch_1678402411778/work/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+Use GPU: 0 for training
+Traceback (most recent call last):
+  File "/mlx_devbox/users/zhuziheng.15/playground/O-TPT/./otpt_classification_psr_im.py", line 1027, in <module>
+    main(args)
+  File "/mlx_devbox/users/zhuziheng.15/playground/O-TPT/./otpt_classification_psr_im.py", line 589, in main
+    main_worker(args.gpu, args)
+  File "/mlx_devbox/users/zhuziheng.15/playground/O-TPT/./otpt_classification_psr_im.py", line 608, in main_worker
+    model = get_coop(args.arch, args.test_sets, args.gpu, args.n_ctx,args.ctx_init,args.disp_cons)
+  File "/mlx_devbox/users/zhuziheng.15/playground/O-TPT/clip/custom_clip_psr_im.py", line 385, in get_coop
+    model = ClipTestTimeTuning(device, classnames, None, arch=clip_arch,
+  File "/mlx_devbox/users/zhuziheng.15/playground/O-TPT/clip/custom_clip_psr_im.py", line 304, in __init__
+    clip, _, _ = load(arch, device=device, download_root=DOWNLOAD_ROOT)
+  File "/mlx_devbox/users/zhuziheng.15/playground/O-TPT/clip/clip.py", line 138, in load
+    model = build_model(state_dict or model.state_dict()).to(device)
+  File "/mlx_devbox/users/zhuziheng.15/playground/miniconda3/envs/otpt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1145, in to
+    return self._apply(convert)
+  File "/mlx_devbox/users/zhuziheng.15/playground/miniconda3/envs/otpt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 797, in _apply
+    module._apply(fn)
+  File "/mlx_devbox/users/zhuziheng.15/playground/miniconda3/envs/otpt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 797, in _apply
+    module._apply(fn)
+  File "/mlx_devbox/users/zhuziheng.15/playground/miniconda3/envs/otpt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 820, in _apply
+    param_applied = fn(param)
+  File "/mlx_devbox/users/zhuziheng.15/playground/miniconda3/envs/otpt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1143, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+  File "/mlx_devbox/users/zhuziheng.15/playground/miniconda3/envs/otpt/lib/python3.10/site-packages/torch/cuda/__init__.py", line 247, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: Unexpected error from cudaGetDeviceCount(). Did you run some cuda functions before calling NumCudaDevices() that might have already set an error? Error 304: OS call failed or operation not supported on this OS

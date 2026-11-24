@@ -1,0 +1,13 @@
+status	experiment	dataset	seed	csv	log
+OK	baseline_zeroshot	Flower102	0	./log/dual_guided_v2_20260722_212706/csv/baseline_zeroshot_flower102_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/baseline_zeroshot_flower102_seed0.log
+OK	tpt_hard_toprho	Flower102	0	./log/dual_guided_v2_20260722_212706/csv/tpt_hard_toprho_flower102_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/tpt_hard_toprho_flower102_seed0.log
+OK	otpt_full_orth_lambda0.1	Flower102	0	./log/dual_guided_v2_20260722_212706/csv/otpt_full_orth_lambda0.1_flower102_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/otpt_full_orth_lambda0.1_flower102_seed0.log
+OK	visual_uniform_allviews	Flower102	0	./log/dual_guided_v2_20260722_212706/csv/visual_uniform_allviews_flower102_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/visual_uniform_allviews_flower102_seed0.log
+OK	visual_kl_soft_allviews	Flower102	0	./log/dual_guided_v2_20260722_212706/csv/visual_kl_soft_allviews_flower102_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/visual_kl_soft_allviews_flower102_seed0.log
+OK	dual_guided_v2	Flower102	0	./log/dual_guided_v2_20260722_212706/csv/dual_guided_v2_flower102_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/dual_guided_v2_flower102_seed0.log
+OK	baseline_zeroshot	Pets	0	./log/dual_guided_v2_20260722_212706/csv/baseline_zeroshot_pets_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/baseline_zeroshot_pets_seed0.log
+OK	tpt_hard_toprho	Pets	0	./log/dual_guided_v2_20260722_212706/csv/tpt_hard_toprho_pets_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/tpt_hard_toprho_pets_seed0.log
+OK	otpt_full_orth_lambda0.1	Pets	0	./log/dual_guided_v2_20260722_212706/csv/otpt_full_orth_lambda0.1_pets_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/otpt_full_orth_lambda0.1_pets_seed0.log
+OK	visual_uniform_allviews	Pets	0	./log/dual_guided_v2_20260722_212706/csv/visual_uniform_allviews_pets_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/visual_uniform_allviews_pets_seed0.log
+OK	visual_kl_soft_allviews	Pets	0	./log/dual_guided_v2_20260722_212706/csv/visual_kl_soft_allviews_pets_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/visual_kl_soft_allviews_pets_seed0.log
+OK	dual_guided_v2	Pets	0	./log/dual_guided_v2_20260722_212706/csv/dual_guided_v2_pets_seed0.tsv	./log/dual_guided_v2_20260722_212706/stdout/dual_guided_v2_pets_seed0.log

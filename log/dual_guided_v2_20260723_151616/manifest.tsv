@@ -1,0 +1,8 @@
+status	experiment	dataset	seed	csv	log
+OK	e0_otpt	Flower102	0	./log/dual_guided_v2_20260723_151616/csv/e0_otpt_flower102_seed0.tsv	./log/dual_guided_v2_20260723_151616/stdout/e0_otpt_flower102_seed0.log
+OK	e2_visual_adaptive_kl	Flower102	0	./log/dual_guided_v2_20260723_151616/csv/e2_visual_adaptive_kl_flower102_seed0.tsv	./log/dual_guided_v2_20260723_151616/stdout/e2_visual_adaptive_kl_flower102_seed0.log
+OK	e3_text_sample_distill	Flower102	0	./log/dual_guided_v2_20260723_151616/csv/e3_text_sample_distill_flower102_seed0.tsv	./log/dual_guided_v2_20260723_151616/stdout/e3_text_sample_distill_flower102_seed0.log
+OK	e4_visual_text_dual	Flower102	0	./log/dual_guided_v2_20260723_151616/csv/e4_visual_text_dual_flower102_seed0.tsv	./log/dual_guided_v2_20260723_151616/stdout/e4_visual_text_dual_flower102_seed0.log
+OK	e0_otpt	Flower102	1	./log/dual_guided_v2_20260723_151616/csv/e0_otpt_flower102_seed1.tsv	./log/dual_guided_v2_20260723_151616/stdout/e0_otpt_flower102_seed1.log
+OK	e2_visual_adaptive_kl	Flower102	1	./log/dual_guided_v2_20260723_151616/csv/e2_visual_adaptive_kl_flower102_seed1.tsv	./log/dual_guided_v2_20260723_151616/stdout/e2_visual_adaptive_kl_flower102_seed1.log
+OK	e3_text_sample_distill	Flower102	1	./log/dual_guided_v2_20260723_151616/csv/e3_text_sample_distill_flower102_seed1.tsv	./log/dual_guided_v2_20260723_151616/stdout/e3_text_sample_distill_flower102_seed1.log

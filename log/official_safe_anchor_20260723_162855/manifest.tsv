@@ -1,0 +1,3 @@
+status	experiment	dataset	seed	csv	log
+OK	otpt_ref	Flower102	0	./log/official_safe_anchor_20260723_162855/csv/otpt_ref_flower102_seed0.tsv	./log/official_safe_anchor_20260723_162855/stdout/otpt_ref_flower102_seed0.log
+FAIL	safe_kl_v3	Flower102	0	./log/official_safe_anchor_20260723_162855/csv/safe_kl_v3_flower102_seed0.tsv	./log/official_safe_anchor_20260723_162855/stdout/safe_kl_v3_flower102_seed0.log

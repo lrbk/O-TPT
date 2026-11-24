@@ -1,0 +1,3 @@
+status	dataset	seed	csv	stdout
+OK	Flower102	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/nc_sem_original_full_20260729_163155/csv/nc_sem_original_Flower102_seed0.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/nc_sem_original_full_20260729_163155/stdout/nc_sem_original_Flower102_seed0.log
+OK	Pets	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/nc_sem_original_full_20260729_163155/csv/nc_sem_original_Pets_seed0.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/nc_sem_original_full_20260729_163155/stdout/nc_sem_original_Pets_seed0.log

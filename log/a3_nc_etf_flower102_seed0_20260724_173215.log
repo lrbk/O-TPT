@@ -1,0 +1,53 @@
+Use GPU: 0 for training
+Initializing the contect with given words: [a_photo_of_a]
+Initial context: "a photo of a"
+Number of context words (tokens): 4
+=> Model created: visual backbone ViT-B/16
+=> Using native Torch AMP. Training in mixed precision.
+length of datset 1
+name id of dataset: Flower102
+evaluating: Flower102
+number of test samples: 2463
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [ 199/2463]	Time  0.091 ( 0.149)	Acc@1   0.00 ( 67.50)	Acc@5   0.00 ( 84.50)
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [ 399/2463]	Time  0.091 ( 0.147)	Acc@1 100.00 ( 67.25)	Acc@5 100.00 ( 85.50)
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [ 599/2463]	Time  0.094 ( 0.146)	Acc@1   0.00 ( 68.50)	Acc@5 100.00 ( 85.50)
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [ 799/2463]	Time  0.091 ( 0.145)	Acc@1 100.00 ( 68.62)	Acc@5 100.00 ( 84.88)
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [ 999/2463]	Time  0.090 ( 0.146)	Acc@1 100.00 ( 67.60)	Acc@5 100.00 ( 85.00)
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [1199/2463]	Time  0.089 ( 0.148)	Acc@1 100.00 ( 68.17)	Acc@5 100.00 ( 85.67)
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [1399/2463]	Time  0.091 ( 0.150)	Acc@1 100.00 ( 68.00)	Acc@5 100.00 ( 85.14)
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [1599/2463]	Time  0.089 ( 0.151)	Acc@1   0.00 ( 68.44)	Acc@5 100.00 ( 85.31)
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [1799/2463]	Time  0.091 ( 0.152)	Acc@1 100.00 ( 68.22)	Acc@5 100.00 ( 85.06)
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [1999/2463]	Time  0.090 ( 0.152)	Acc@1 100.00 ( 67.50)	Acc@5 100.00 ( 84.60)
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [2199/2463]	Time  0.091 ( 0.153)	Acc@1 100.00 ( 67.73)	Acc@5 100.00 ( 84.55)
+[nc] L_etf = 3620.3936, L_align = 0.0000, gram_diag = 1.0000, gram_offdiag = 0.5757
+Test: [2399/2463]	Time  0.089 ( 0.153)	Acc@1   0.00 ( 68.21)	Acc@5 100.00 ( 84.96)
+ *  Acc@1 68.128 Acc@5 84.978
+acc:  68.1282988225741
+ece:  3.8943552070645557
+nll:  1.6700727851517647
+brier:  0.42128562046166473
+=> Acc. on testset [Flower102]: @1 68.12830352783203/ @5 84.97766876220703
+======== Result Summary ========
+params: nstep	lr	bs
+params: 1	    0.005	64
+		 [set_id] 		 Top-1 acc. 		 Top-5 acc.
+Flower102	
+
+68.13	
+

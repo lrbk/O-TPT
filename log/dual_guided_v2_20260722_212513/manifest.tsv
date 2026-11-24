@@ -1,0 +1,2 @@
+status	experiment	dataset	seed	csv	log
+FAIL	baseline_zeroshot	Flower102	0	./log/dual_guided_v2_20260722_212513/csv/baseline_zeroshot_flower102_seed0.tsv	./log/dual_guided_v2_20260722_212513/stdout/baseline_zeroshot_flower102_seed0.log

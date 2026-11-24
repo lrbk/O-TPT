@@ -1,0 +1,2 @@
+status	dataset	seed	mode	lambda	csv	stdout
+OK	Flower102	0	ctx	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/trust_region_wrapper_fix_check_20260812_195111/csv/trust_region_Flower102_seed0_modectx_lam0.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/trust_region_wrapper_fix_check_20260812_195111/stdout/trust_region_Flower102_seed0_modectx_lam0.log

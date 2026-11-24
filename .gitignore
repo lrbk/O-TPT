@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Model weights / caches
+*.pt
+*.pth
+*.ckpt
+.cache/
+
+# Local dataset symlinks (datasets are not versioned)
+dataset/
+
+# Experiment runtime artifacts
+*.pid
+*.latest
+nohup*.log
+nohup*.out
+log/**/stdout/
+
+# OS / editor
+.DS_Store
+.trae/

@@ -1,0 +1,4 @@
+status	dataset	seed	csv	log
+OK	Flower102	0	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/reproduce_raw_otpt_flower102_20260807_180824/Flower102_seed0_raw_otpt.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/reproduce_raw_otpt_flower102_20260807_180824/Flower102_seed0_raw_otpt.log
+OK	Flower102	1	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/reproduce_raw_otpt_flower102_20260807_180824/Flower102_seed1_raw_otpt.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/reproduce_raw_otpt_flower102_20260807_180824/Flower102_seed1_raw_otpt.log
+OK	Flower102	2	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/reproduce_raw_otpt_flower102_20260807_180824/Flower102_seed2_raw_otpt.csv	/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/reproduce_raw_otpt_flower102_20260807_180824/Flower102_seed2_raw_otpt.log

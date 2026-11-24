@@ -1,0 +1,9 @@
+===== dataset=Flower102 method=entropy seed=0 =====
+===== dataset=Flower102 method=psr seed=0 =====
+===== dataset=Flower102 method=im seed=0 =====
+===== dataset=Flower102 method=psr_im seed=0 =====
+===== dataset=Pets method=entropy seed=0 =====
+===== dataset=Pets method=psr seed=0 =====
+===== dataset=Pets method=im seed=0 =====
+===== dataset=Pets method=psr_im seed=0 =====
+run_root=/mlx_devbox/users/zhuziheng.15/playground/O-TPT/log/psr_im_20260723_171001
